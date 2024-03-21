@@ -3,6 +3,7 @@
 #include <map>
 #include <set>
 #include <deque>
+#include <unistd.h>
 
 #include "qconf_zk.h"
 #include "qconf_log.h"

@@ -26,7 +26,7 @@ set_source_files_properties(../../base/qlibc/qhasharr.c PROPERTIES LANGUAGE CXX 
 file(GLOB ZK_OBJ_FILE
         "${PROJECT_SOURCE_DIR}/../../deps/zookeeper/_install/lib/*.o"
     )
-message(${ZK_OBJ_FILE})
+message(STATUS ${ZK_OBJ_FILE})
 
 add_definitions(${DRIVER_COMPILE_FLAGS})
 add_library(qconf_static STATIC ${DIR_SRCS}

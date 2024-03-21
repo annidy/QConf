@@ -5,6 +5,7 @@
 #include <signal.h>
 #include <sys/wait.h>
 #include <sys/select.h>
+#include <unistd.h>
 
 #include "qconf_log.h"
 #include "qconf_const.h"

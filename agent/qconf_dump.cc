@@ -5,6 +5,7 @@
 #include <pthread.h>
 #include <sys/stat.h>
 #include <gdbm.h>
+#include <unistd.h>
 
 #include <string>
 #include <iostream>
